@@ -53,7 +53,7 @@ class no_background(pygame.sprite.Sprite):
             self.image =self.font_used.render(self.text, True, self.text_color)
         
         
-class with_images(pygame.sprite.Sprite):
+class imagebutton(pygame.sprite.Sprite):
     def __init__(self,start_x,start_y,width, height, image_no, image_hover,action):
         super().__init__()        
         self.img_default = pygame.image.load(image_no) 
